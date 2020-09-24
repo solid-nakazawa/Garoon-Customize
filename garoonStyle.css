@@ -1,0 +1,119 @@
+html,
+body,
+* {
+  font-family: meiryo-ui !important;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.calendar.scheduleWrapper.scheduleWrapperGroupWeek.portlet_groupweek
+  tr
+  td:first-child {
+  display: none;
+}
+
+.application_menu {
+  display: flex;
+  justify-content: center;
+}
+
+#appmenu-star,
+#appmenu-notification,
+#appmenu-phonemessage,
+#appmenu-link,
+#appmenu-timecard,
+#appmenu-space,
+#appmenu-rss,
+#appmenu-todo,
+#appmenu-memo {
+  display: none;
+}
+
+.portal_tabgroup_grn {
+  display: flex;
+  justify-content: left;
+}
+
+.top_title {
+  text-align: center;
+}
+
+.portlet_calendar_grn {
+  text-align: center;
+}
+
+.portlet_base_grn,
+.portlet_base_grn .portal_frame.portal_frame_calendar_grn {
+  width: auto;
+  height: auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.portal_fixed_grn .schedule_userbox_item_grn.schedule_userbox_presence_grn {
+  display: none;
+}
+
+.shortcut_box_full {
+  display: none;
+}
+
+.nowrap-grn.schedule_userbox_item_grn {
+  display: none;
+}
+
+.shortcut_box_short {
+  display: initial;
+}
+
+.appmenuToggleWrapper {
+  display: none;
+}
+
+.tab_portal {
+  margin-top: 0;
+}
+
+.tab_menu_end {
+  clear: both;
+  height: 4px;
+  background-color: #b88969;
+  font-size: 1px;
+}
+
+.mainarea {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.mainarea_portal_grn .schedule_user_tr .addEvent {
+  position: relative;
+  top: -1.9rem;
+  line-height: 0;
+}
+
+.mainarea_portal_grn .normalEventElement.group_week_calendar_item,
+.mainarea_portal_grn .groupWeekInfo,
+.mainarea_portal_grn .schedule_todo {
+  position: relative;
+  top: -1.7rem;
+}
+
+.cloudHeader-inner-grn {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.portal_frame.portal_frame_todo_grn tr:first-child {
+  display: none;
+}
+
+.portal_frame.portal_frame_unacknowledged_topic_grn tr:first-child {
+  display: none;
+}
+
+.portal_frame.portal_frame_confirmed_notification_grn tr:first-child {
+  display: none;
+}

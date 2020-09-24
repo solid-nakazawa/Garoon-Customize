@@ -1,0 +1,20 @@
+#rakus_button {
+  display: inline-block;
+  margin-right: -3px;
+  vertical-align: middle;
+  height: 27px;
+  position: relative;
+}
+
+#rakus_button:hover {
+  background-color: #3aabc8;
+}
+
+#rakus_link {
+  margin: 0.35em 1em;
+  display: block;
+  color: #fff !important;
+  height: 100%;
+  white-space: nowrap;
+  font-weight: bold;
+}
